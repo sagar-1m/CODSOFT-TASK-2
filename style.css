@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  background-size: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -99;
+  width: 100%;
+  height: 73vh;
+  overflow: hidden;
+}
+.img::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #2c5364, #203a43, #0f2027);
+  opacity: 0.5;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0px 4px 6px 0px rgb(178, 178, 190);
+}
+nav h1 {
+  font-size: 30px;
+}
+
+.logo h1 {
+  color: brown;
+}
+
+ul button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: brown;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  padding: 4px;
+  margin-inline: 30px;
+  margin-right: 0%;
+  cursor: pointer;
+}
+
+ul button:hover {
+  border: 2px solid rgb(226, 220, 226);
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(236, 228, 228);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+ul li a {
+  margin-inline: 28px;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(206, 197, 207);
+  transition: all 1s ease-out;
+}
+
+ul li a:hover {
+  border-bottom: solid 4px rosybrown;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 3px;
+  font-size: 15px;
+  color: rgb(214, 44, 58);
+}
+
+.type {
+  margin: left 0;
+  margin-top: 120px;
+}
+
+.type h1 {
+  font-size: 40px;
+  color: rgb(236, 228, 228);
+  margin-left: 20px;
+  text-align: center;
+}
+
+.type p {
+  color: rgb(175, 180, 180);
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.type button {
+  width: 180px;
+  padding: 20px 10px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 20px;
+  display: block;
+}
+
+.type button:hover {
+  border: 2px solid rgb(226, 220, 226);
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(236, 228, 228);
+}
+
+.main {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+.main span {
+  display: block;
+  color: brown;
+  margin-top: 50px;
+}
+
+.ourprogram {
+  height: 350px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.ourprogram .area1 {
+  overflow: hidden;
+  text-align: center;
+}
+
+.ourprogram .area1 img {
+  width: 100%;
+  height: 300px;
+}
+
+.ourprogram .area1 img:hover {
+  scale: 1.1;
+}
+
+.main1 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.main1 span {
+  display: block;
+  color: brown;
+  margin-top: 50px;
+}
+
+.ourservices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourservices .blocks {
+  width: 380px;
+  height: 430px;
+  box-shadow: inset;
+  border-radius: 7px;
+  background-color: rgb(160, 104, 104);
+  margin-inline: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+.blocks h3 {
+  margin-top: 20px;
+  color: rgb(61, 14, 14);
+  font-size: 25px;
+  text-decoration: underline;
+  text-shadow: 4px 2px rgb(134, 112, 112);
+}
+
+.blocks h1 {
+  margin-top: 20px;
+  color: rgb(16, 26, 12);
+  font-size: 20px;
+}
+
+.blocks p {
+  margin-top: 20px;
+  color: rgb(34, 4, 4);
+  font-size: 18px;
+}
+
+.blocks button {
+  margin-top: 20px;
+  width: 100px;
+  background-color: rgba(90, 6, 6, 0.658);
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding: 10px 7px;
+  border-radius: 5px;
+}
+
+.blocks button:hover {
+  border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(230, 223, 230);
+  transform: scale(1.5);
+}
+
+.main2 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.main2 span {
+  display: block;
+  color: brown;
+  margin-top: 50px;
+  font-size: 32px;
+}
+
+.contactpage {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.contacttext {
+  color: rgb(85, 72, 72);
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.contactus {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(160, 104, 104);
+}
+
+.contactus input {
+  width: 450px;
+  padding: 2px;
+  height: 40px;
+  border: 2px solid rgb(19, 1, 18);
+  border-radius: 3px;
+  font-size: 20px;
+  margin-top: 20px;
+  color: rgb(29, 27, 28);
+}
+
+.contactus button {
+  width: 460px;
+  padding: 7px 5px;
+  color: white;
+  border: 2px solid rgb(19, 1, 18);
+  font-size: 20px;
+  background-color: brown;
+  border-radius: 3px;
+  margin-top: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.contactus button:hover {
+  transform: scale(1.05);
+  background-color: transparent;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.footer .footertext {
+  margin-inline: 70px;
+}
+
+.footertext p {
+  margin-top: 15px;
+  color: rgb(146, 50, 50);
+  font-size: 17px;
+}
